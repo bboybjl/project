@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+*{margin: 0;padding: 0;}
+div{width: 100px;height: 30px;border: 1px solid #f60; color:#f60; margin:100px auto; text-align: center; line-height: 30px;border-radius:5px;}
+div:after{content:""; width: 10px;height: 10px; border-top: 1px solid #f60; border-right: 1px solid #f60; display:inline-block; transform:rotate(45deg); transition:all 0.5s; margin-left: 3px;}
+
+div:hover:after{transform:rotate(405deg);}
+
+</style>
+</head>
+
+<body>
+<div>戳我</div>
+</body>
+</html>
